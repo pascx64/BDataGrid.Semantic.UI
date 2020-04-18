@@ -1,4 +1,5 @@
 ﻿using BDataGrid.Library;
+using Microsoft.AspNetCore.Components;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BDataGrid.Semantic.UI.Example.Pages
 {
-    public partial class Index
+    public partial class Index: ComponentBase
     {
         public class DataItem
         {

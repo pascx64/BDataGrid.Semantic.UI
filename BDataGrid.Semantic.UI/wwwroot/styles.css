@@ -1,1 +1,7 @@
 ﻿
+.ui.table {
+    border-collapse: separate;
+}
+.ui.table .selectedCell {
+    border: 2px solid black !important;
+}
