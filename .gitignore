@@ -3,3 +3,7 @@
 ################################################################################
 
 /.vs
+/BDataGrid.Semantic.UI/bin/Debug
+/BDataGrid.Semantic.UI/obj
+/BDataGrid.Semantic.UI.Example/bin/Debug/netcoreapp3.1
+/BDataGrid.Semantic.UI.Example/obj
