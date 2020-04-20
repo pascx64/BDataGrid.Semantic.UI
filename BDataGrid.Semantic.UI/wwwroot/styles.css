@@ -15,7 +15,8 @@
     width: 100%;
 }
 
-    .ui.table thead {
+    .ui.table thead,
+    .ui.table tfoot {
         /* head takes the height it requires, 
     and it's not scaled when table is resized */
         flex: 0 0 auto;
@@ -29,12 +30,14 @@
         overflow-y: auto;
     }
 
-        .ui.table tbody tr {
+        .ui.table tbody tr,
+        .ui.table tfoot tr {
             width: 100%;
         }
 
         .ui.table thead,
-        .ui.table tbody tr {
+        .ui.table tbody tr,
+        .ui.table tfoot tr {
             display: table;
             table-layout: fixed;
         }
