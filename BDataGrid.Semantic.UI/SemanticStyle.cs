@@ -22,8 +22,8 @@ namespace BDataGrid.Semantic.UI
 
         public string PaginationPageNumberClass { get; set; } = "icon item";
 
-        public string PaginationLeftIcon { get; set; } = "left chevron icon";
+        public string PaginationLeftIcon { get; set; } = "angle double left icon";
 
-        public string PaginationRightIcon { get; set; } = "right chevron icon";
+        public string PaginationRightIcon { get; set; } = "angle double right icon";
     }
 }

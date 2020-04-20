@@ -41,7 +41,7 @@ namespace BDataGrid.Semantic.UI.Example.Pages
                         .HasColSpan(2)
                 .Else()
                     .Property(p => p.Value)
-                        .Formatter(item => item.Value + "$")
+                        .HasFormatter(item => item.Value + "$")
                     .If(item => item.Value % 2 == 0) // every pair item
                         .Property(p => p.Value)
                             .HasBackgroundColor("#fcd1d1"); // error/red color
