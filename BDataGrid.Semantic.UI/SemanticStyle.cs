@@ -6,7 +6,7 @@ namespace BDataGrid.Semantic.UI
 {
     public class SemanticStyle : Library.IBDataGridStyle
     {
-        public string TableClass { get; set; } = "ui celled structured table";
+        public string TableClass { get; set; } = "ui sortable celled structured table";
 
         public string RowClass { get; set; } = "";
 
@@ -25,5 +25,9 @@ namespace BDataGrid.Semantic.UI
         public string PaginationLeftIcon { get; set; } = "angle double left icon";
 
         public string PaginationRightIcon { get; set; } = "angle double right icon";
+
+        public string HeaderSortedAscendingClass { get; set; } = "sorted ascending";
+
+        public string HeaderSortedDescendingClass { get; set; } = "sorted descending";
     }
 }
