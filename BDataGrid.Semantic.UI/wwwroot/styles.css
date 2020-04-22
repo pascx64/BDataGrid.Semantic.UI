@@ -1,50 +1,5 @@
 ﻿
-.ui.table {
-    border-collapse: separate !important;
-}
 
     .ui.table .selectedCell {
         /*border: 2px solid black !important;*/
-    }
-
-
-.ui.table {
-    display: flex;
-    flex-flow: column;
-    height: 100%;
-    width: 100%;
-}
-
-    .ui.table tfoot {
-        flex: 0 0 auto;
-        width: 100%;
-    }
-
-    .ui.table thead {
-        /* head takes the height it requires, 
-    and it's not scaled when table is resized */
-        flex: 0 0 auto;
-        width: calc(100% - 10px);
-    }
-
-    .ui.table tbody {
-        /* body takes all the remaining available space */
-        flex: 1 1 auto;
-        display: block;
-        overflow-y: scroll;
-    }
-
-    .ui.table tfoot tr {
-        width: calc(100% - 10px);
-    }
-
-    .ui.table tbody tr {
-        width: 100%;
-    }
-
-    .ui.table thead,
-    .ui.table tbody tr,
-    .ui.table tfoot tr {
-        display: table;
-        table-layout: fixed;
     }
