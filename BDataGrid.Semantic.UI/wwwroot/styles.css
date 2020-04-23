@@ -1,5 +1,10 @@
 ﻿
 
-    .ui.table .selectedCell {
-        /*border: 2px solid black !important;*/
-    }
+.ui.table .selectedCell {
+    /*border: 2px solid black !important;*/
+}
+
+.excelIconContainer {
+    padding-top: 9px !important;
+    padding-bottom: 10px !important;
+}

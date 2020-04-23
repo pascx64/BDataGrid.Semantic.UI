@@ -29,5 +29,11 @@ namespace BDataGrid.Semantic.UI
         public string HeaderSortedAscendingClass { get; set; } = "sorted ascending";
 
         public string HeaderSortedDescendingClass { get; set; } = "sorted descending";
+
+        public string ExportExcelDivClass { get; set; } = "ui right floated pagination menu";
+
+        public string ExportExcelAClass { get; set; } = "icon item excelIconContainer";
+
+        public string ExportExcelIconClass { get; set; } = "large file excel outline icon";
     }
 }
