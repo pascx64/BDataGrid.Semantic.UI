@@ -2,6 +2,8 @@
 
 .ui.table .selectedCell {
     /*border: 2px solid black !important;*/
+    outline: 2px solid black;
+    z-index: 99;
 }
 
 .excelIconContainer {
