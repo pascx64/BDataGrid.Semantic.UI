@@ -35,5 +35,7 @@ namespace BDataGrid.Semantic.UI
         public string ExportExcelAClass { get; set; } = "icon item excelIconContainer";
 
         public string ExportExcelIconClass { get; set; } = "large green file excel outline icon";
+
+        public string? PopupInitializationJavascriptFunction { get; set; } = "BDataGrid.Semantic.UI.InitializePopups";
     }
 }
